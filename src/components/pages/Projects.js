@@ -1,24 +1,44 @@
-import React from 'react';
+// import React from 'react';
+// import firstproject from '../../Assets/firstproject.png'
+// import notetaker from '../../Assets/notetaker.png'
+// import passwordgen from'../../Assets/passwordgen.png'
+// import renters from '../../Assets/renters.png'
+// import takemeaway from '../../Assets/takemeaway.png'
+// import timedquiz from '../../Assets/timedquiz.png'
 
-export default function Blog() {
+export default function Projects() {
   return (
-    <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
-    </div>
+    <section className='project-container'>
+      <h2 id="projects">Projects</h2>
+      <div className='grid-container'>
+        <div className='grid-item firstproject'>
+          <div className='project-name'>
+            <h3>Horiseon Website Refractor</h3>
+            <span>First Project to refractor the Horiseon webpage</span>
+          </div>
+          <div className='grid-buttons'>
+            <a href='https://github.com/Zac0088/Horiseon-webpage-challenge'>Github</a>
+            <img src='{firstproject}' alt="Horiseon webpage">Screen Shot</img>
+          </div>
+        </div>
+
+        
+        <div className='grid-item notetaker'>
+          <div className='project-name'>
+            <h3>Express JS Note Taker</h3>
+            <span>Note taking Application</span>
+          </div>
+          <div className='grid-buttons'>
+            <a href='https://github.com/Zac0088/Express-JS-Note-Taker'>Github</a>
+            <img src='{notetaker}' alt="note taker screenshot">Screen Shot</img>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+
+    
   );
 }
