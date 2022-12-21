@@ -5,7 +5,7 @@ import Projects from './pages/Projects'
 // import About from './pages/Home';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
-
+import Footer from './Footer';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
@@ -27,10 +27,13 @@ export default function PortfolioContainer() {
 
   return (
     <div>
+      <div className="portfolio-container">
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+    </div>
+    <Footer/>
     </div>
   );
 }

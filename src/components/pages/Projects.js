@@ -12,37 +12,37 @@ export default function Projects() {
       <h1 className='topText'>Projects</h1>
       <div className='boxText box'>
         <div class= "example">
-          <a target="_blank" href='https://github.com/Zac0088/Horiseon-webpage-challenge'>
+          <a target="_blank" href='https://github.com/Zac0088/Horiseon-webpage-challenge' rel='noreferrer'>
             <img src={firstproject} alt="Horiseon webpage" width="600" height="400"/>
           </a>
         </div>
 
         <div class= "example">
-          <a target="_blank" href='https://github.com/Zac0088/Express-JS-Note-Taker'>
+          <a target="_blank" href='https://github.com/Zac0088/Express-JS-Note-Taker'rel='noreferrer' >
             <img src={notetaker} alt="Note taker" width="600" height="400"/>
           </a>
         </div>
 
         <div class= "example">
-          <a target="_blank" href='https://github.com/Zac0088/Password-Generator'>
+          <a target="_blank" href='https://github.com/Zac0088/Password-Generator'rel='noreferrer' >
             <img src={passwordgen} alt="Password generator" width="600" height="400"/>
           </a>
         </div>
 
         <div class= "example">
-          <a target="_blank" href='https://github.com/Zac0088/Timed-Quiz'>
+          <a target="_blank" href='https://github.com/Zac0088/Timed-Quiz'rel='noreferrer' >
             <img src={timedquiz} alt="Timed quiz" width="600" height="400"/>
           </a>
         </div>
 
         <div class= "example">
-          <a target="_blank" href='https://github.com/Zac0088/Rental-Property-Project'>
+          <a target="_blank" href='https://github.com/Zac0088/Rental-Property-Project'rel='noreferrer' >
             <img src={renters} alt="Renters" width="600" height="400"/>
           </a>
         </div>
 
         <div class= "example">
-          <a target="_blank" href='https://github.com/AndrewDippel/Trip-Itinerary'>
+          <a target="_blank" href='https://github.com/AndrewDippel/Trip-Itinerary'rel='noreferrer' >
             <img src={takemeaway} alt="Take me away" width="600" height="400"/>
           </a>
         </div>
