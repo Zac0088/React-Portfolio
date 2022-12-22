@@ -6,8 +6,8 @@ function Contact() {
   const [email, setEmail] = useState('');
   const [sender, setSender] = useState('');
   const [message, setMessage] = useState('');
-  const [text, setText] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+  
 
   const handleInputChange = (e) => {
     const { target } = e;
@@ -52,15 +52,15 @@ function Contact() {
             <label htmlFor='name'>Name</label>
             <input
             value={sender}
-            type={text}
-            className={form-control}
-            name={sender}
+            type="text"
+            className='form-control'
+            name="name"
             onChange={handleInputChange}
             id="full-name"
             placeholder='Name'
             required
             />
-            {nameError && <p className='error-text'>{nameError}</p>}
+            
             </div>
             <div className='form-group'>
               <label htmlFor="email">Email:</label>
