@@ -2,11 +2,11 @@ import React from 'react';
 // import './Footer.css';
 export default function Footer() {
   return (
-    <Footer>
-        <p href= ''><i class='fa-brands fa-square-github' ></i></p>
-        <p href='https://github.com/Zac0088'><i class='fa-brands fa-linkedin' ></i></p>
-        <p href='https://github.com/Zac0088'><i class='fa-brands fa-discord' ></i></p>
+    <footer>
+        <a href= 'https://github.com/Zac0088'><i className='fa-brands fa-square-github' ></i></a>
+        <a href='https://github.com/Zac0088'><i className='fa-brands fa-linkedin' ></i></a>
+        <a href='https://github.com/Zac0088'><i className='fa-brands fa-discord' ></i></a>
 
-    </Footer>
+    </footer>
   );
 }
