@@ -7,11 +7,15 @@ export default function Footer() {
     display: 'flex',
     justifyContent: 'center',
     backgroundColor: 'lightgray',
-    height: 100,
-    width: 2000
+    height: 50,
+    width: 2000,
+    
   };
   const iconStyles ={
-    fontSize: '30px'
+    fontSize: '50px',
+    margin:'auto',
+    display: 'flex',
+    justifyContent: 'center',
   }
   return (
     <footer style={footerStyles}>

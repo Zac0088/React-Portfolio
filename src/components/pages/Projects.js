@@ -7,10 +7,15 @@ import takemeaway from '../../Assets/takemeaway.png'
 import timedquiz from '../../Assets/timedquiz.png'
 
 export default function Projects() {
+  const boxStyle = {
+    display:'flex',
+    justifyContent:'space-between',
+    flexWrap:'wrap'
+  }
   return (
     <div>
       <h1 className='topText'>Projects</h1>
-      <div className='boxText box'>
+      <div style={boxStyle}>
         <div class= "example">
           <a target="_blank" href='https://github.com/Zac0088/Horiseon-webpage-challenge' rel='noreferrer'>
             <img src={firstproject} alt="Horiseon webpage" width="600" height="400"/>
