@@ -13,7 +13,7 @@ export default function Header(props) {
     const h1Styles = {
         margin: 0,
         fontsize: '24px',
-        justifyContent: 'center',
+        alignSelf: 'flex-start'
     }
     return (
         <div style={headerStyles}>

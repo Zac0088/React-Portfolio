@@ -7,12 +7,12 @@ export default function Footer() {
     display: 'flex',
     justifyContent: 'center',
     backgroundColor: 'lightgray',
-    height: 50,
+    height: 40,
     width: 2000,
     
   };
   const iconStyles ={
-    fontSize: '50px',
+    fontSize: '40px',
     margin:'auto',
     display: 'flex',
     justifyContent: 'center',
