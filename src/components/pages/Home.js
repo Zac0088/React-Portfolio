@@ -1,6 +1,6 @@
 import React from 'react';
 import profilepic from '../../Assets/profilepic.jpg'
-import './Home.css'
+
 
 export default function Home() {
   return (

@@ -7,12 +7,13 @@ export default function Header(props) {
         backgroundColor: 'lightgray',
         display: 'flex',
         alignItems: 'center',
-        justifyContent: 'space-between',
+        justifyContent: 'space-around',
         padding: '20px'
     };
     const h1Styles = {
         margin: 0,
         fontsize: '24px',
+        justifyContent: 'center',
     }
     return (
         <div style={headerStyles}>
