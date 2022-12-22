@@ -1,13 +1,11 @@
 import React from 'react';
-import './Footer.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin, faDiscord } from '@fortawesome/free-brands-svg-icons'
+// import './Footer.css';
 export default function Footer() {
   return (
     <Footer>
-        <p id='git'><a href='https://github.com/Zac0088'><FontAwesomeIcon icon ={faGithub} /></a></p>
-        <p id='linkdin'><a href='https://github.com/Zac0088'><FontAwesomeIcon icon ={faLinkedin} /></a></p>
-        <p id='git'><a href='https://github.com/Zac0088'><FontAwesomeIcon icon ={faDiscord} /></a></p>
+        <p href= ''><i class='fa-brands fa-square-github' ></i></p>
+        <p href='https://github.com/Zac0088'><i class='fa-brands fa-linkedin' ></i></p>
+        <p href='https://github.com/Zac0088'><i class='fa-brands fa-discord' ></i></p>
 
     </Footer>
   );
