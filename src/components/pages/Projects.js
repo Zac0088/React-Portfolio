@@ -1,6 +1,6 @@
 import React from 'react';
 import firstproject from '../../Assets/firstproject.png'
-import notetaker from '../../Assets/notetaker.png'
+import Homepage from '../../Assets/Homepage.png'
 import passwordgen from'../../Assets/passwordgen.png'
 import renters from '../../Assets/renters.png'
 import takemeaway from '../../Assets/takemeaway.png'
@@ -27,8 +27,8 @@ export default function Projects() {
         </div>
 
         <div class= "example" style={exampleStyle}>
-          <a target="_blank" href='https://github.com/Zac0088/Express-JS-Note-Taker'rel='noreferrer' >
-            <img src={notetaker} alt="Note taker" width="600" height="400"/>
+          <a target="_blank" href='https://github.com/ivoveloso/TeaTimez'rel='noreferrer' >
+            <img src={Homepage} alt="Tea Time" width="600" height="400"/>
           </a>
         </div>
 

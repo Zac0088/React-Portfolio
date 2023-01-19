@@ -41,11 +41,11 @@ function Contact() {
   return (
     <section className='container-fluid contact'>
       <h2 id="contact-title">Contact Me</h2>
-      <div className='row contact-row' data-Contact="hide">
+      <div className='row contact-row' data-contact="hide">
         <form
         action='mailto:'
         method='POST'
-        enctype='multipart/form-data'
+        encType='multipart/form-data'
         id='contact-form'
         >
           <div className='form-group'>
@@ -54,7 +54,7 @@ function Contact() {
             value={sender}
             type="text"
             className='form-control'
-            name="name"
+            name="sender"
             onChange={handleInputChange}
             id="full-name"
             placeholder='Name'
